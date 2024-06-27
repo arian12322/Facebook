@@ -1,0 +1,78 @@
+body {
+    
+    background-color: cornflowerblue;
+}
+
+#button {
+    padding: 5px 90px;
+    border-style: none;
+    color: white;
+    background-color: #ffffff45;
+    cursor: pointer;
+}
+
+#login {
+    text-align: center;
+    margin-top: 140px;
+}
+
+input{
+border-style:none;
+outline-style:none;
+background-color:cornflowerblue;
+border-bottom:1px solid white;
+font-size:20px;
+color:white;
+}
+
+img {
+    margin-bottom: 60px;
+    text-align: center;
+    border-radius: 5px;
+    /* margin-top: 70px; */
+    width: 60px;
+}
+h4 {
+    text-align:center;
+    font-family: system-ui;
+    color: white;
+    font-size: 15px;
+}
+
+#h4 {
+    margin-top: 130px;
+    font-family: system-ui;
+    color: white;
+    font-size: 15px;
+}
+a{text-decoration:none;}
+
+
+
+#error_email {
+    top: 47.5%;
+}
+#error_email, #error_pass {
+    width: 250px;
+    display: none;
+    background-color: white;
+    position: absolute;
+    right: 35.25%;
+    font-size: 19.9px;
+    font-family: system-ui;
+    height: 39px;
+    text-align: center;
+}
+
+#error_pass {
+    top: 55%;
+}
+
+
+@media (max-width: 500px){
+#error_email, #error_pass {
+    right: 25%;
+}
+
+}
+
